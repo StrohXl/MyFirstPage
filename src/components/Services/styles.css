@@ -1,0 +1,71 @@
+.servicies{
+    width: 100%;
+    
+    z-index: 10;
+    background-color: #fff;
+}
+
+
+.link{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.link a{
+    font-size: 20px;
+}
+.titulo-servicies-transition{
+    
+    top: -1000px;
+}
+
+.titulo-servicies{
+    
+    top: 0px;
+    background-color: #fff ;
+    display: flex;
+    height: 100px;
+    width: 100% !important;
+    border-bottom: 1px solid #ddd;
+    transition: top  1.0 ease;
+  
+}
+.servicies .ant-card-meta{
+ 
+    font-size: 18px;
+ }
+ .servicies .ant-card-body{
+    height: 160px;
+ }
+ .servicies .ant-card-meta-title{
+
+    font-size: 22px !important;
+ }
+.ant-carousel:nth-last-child(1){
+    display: none;
+ }
+.titulo-servicies .ant-typography{
+    margin: auto !important;
+    color: #1890ff !important;
+}
+.ant-carousel .slick-dots li{
+    
+    height: 10px !important;
+    width: 32px !important;
+    
+}
+.ant-carousel .slick-dots li button{
+    height: 10px !important;
+    width: 32px !important;
+    background-color: #1890ff !important;
+}
+.ant-carousel .slick-slide img{
+    height: 380px;
+}
+.ant-carousel{
+    padding-top: 20px !important;
+    border-bottom: 1px solid #ddd;
+}
+.slick-track{
+    height: 600px;
+}

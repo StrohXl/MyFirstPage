@@ -1,0 +1,62 @@
+.Playas{
+    margin: auto;
+    margin-top: 64px;
+    width: 90%;
+    z-index: 10;
+    background-color: #fff;
+    min-height: 2800px;
+}
+.titulo-Playas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff ;
+    height: 100px;
+    width: 100% !important;
+}
+.Playas .site-card-wrapper-responsive{
+    display: none !important;
+}
+.Playas .site-card-wrapper{
+    min-height: 2800px;
+}
+.Playas .ant-card-body{
+    height: 120px;
+}
+.Playas .site-card-wrapper .imagen-Playas{
+    height: 380px;
+    transform: scale(0.8);
+    opacity: 0;
+    transition-property: transform opacity;
+    transition-duration: 2s;
+
+}
+.imagen-Playas{
+    height: 380px !important;
+    transform: scale(0.8);
+    opacity: 0;
+    transition-property: transform opacity;
+    transition-duration: 2s;
+
+}
+ .activo{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+
+}
+
+
+.Playas .ant-typography{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.content-button{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boton-reserve-ya-Playas{
+    bottom: 20px;
+}

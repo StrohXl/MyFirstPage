@@ -1,0 +1,18 @@
+@media (min-width:350px) and (max-width:650px){
+    .parte1{
+        height: 700px !important;
+    }
+    .titulo-header{
+        padding-top:50px;
+      
+    }
+}
+@media (min-width:651px) and (max-width:990px){
+    .parte1{
+        height: 550px !important;
+    }
+    .titulo-header{
+        padding-top:50px;
+      
+    }
+}

@@ -1,0 +1,80 @@
+.servicios{
+    margin: auto;
+    margin-top: 64px;
+    width: 90%;
+    z-index: 10;
+    background-color: #fff;
+    min-height: 2400px;
+}
+.imageFalse{
+    opacity: 0 !important;
+    transition: all 2s ease;
+    transform: scale(0.1) !important;
+}
+.imagesObserver{
+    opacity: 1 !important;
+    transform: scale(1) !important;
+ 
+}
+
+.servicios .site-card-wrapper{
+    min-height: 2400px;
+}
+.servicios .ant-typography{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.servicios .ant-card-body{
+    height: 110px;
+}
+.servicios .site-card-wrapper-responsive{
+    display: none !important;
+}
+.titulo-servicios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff ;
+    height: 100px;
+    width: 100% !important;
+  
+}
+.servicios .ant-card-meta-title{
+    font-size: 20px ;
+}
+.servicios .ant-card-meta-description{
+    font-size: 15px ;
+}
+.imagen-serv{
+
+    height: 380px;
+   
+
+}
+.imagen-servicios{
+    opacity: 0 !important;
+    height: 380px ;
+    transform: scale(0.8) !important;
+    transition-property: opacity transform;
+    transition-duration: 2s;
+}
+
+.aumentar{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+    
+}
+.content-button{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boton-reserve-ya-servicios{
+   
+    bottom: 20px;
+
+
+}

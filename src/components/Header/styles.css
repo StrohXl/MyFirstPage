@@ -1,0 +1,31 @@
+
+.title{
+    color: #222 !important;
+}
+.titulo-header{
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 40vw;
+}
+.parte1{
+    height: 500px;
+}
+.boton-reserve-ya{
+    margin-top: 20px;
+}
+.ant-btn-primary:hover{
+    color: #1890ff !important; 
+    border-color: #1890ff !important;
+    background: #fff !important;;
+}
+.container-footer{
+    bottom: 0 !important;
+    z-index: 10;
+}
+.container-content{
+    z-index: 10;
+}
+.ant-layout-content{
+    margin-top: 0;
+    padding: 0;
+}

@@ -1,0 +1,32 @@
+@media (min-width:350px) and (max-width:650px){
+  .servicies .ant-carousel:nth-last-child(2){
+    display: none;
+ }
+ .servicies .ant-carousel:nth-last-child(1){
+   display: block;
+}
+.servicies .ant-card-meta{
+ 
+    font-size: 20px;
+ }
+ .servicies .ant-card-meta-title{
+
+    font-size: 25px !important;
+ }
+}
+@media (min-width:651px) and (max-width:952px){
+   .servicies .ant-carousel:nth-last-child(2){
+      display: none;
+   }
+   .servicies .ant-carousel:nth-last-child(1){
+     display: block;
+  }
+  .servicies .ant-card-meta{
+   
+      font-size: 20px;
+   }
+   .servicies .ant-card-meta-title{
+  
+      font-size: 25px !important;
+   }
+  }

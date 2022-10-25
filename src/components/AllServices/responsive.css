@@ -1,0 +1,70 @@
+@media (min-width:350px) and (max-width:750px){
+    .servicios .site-card-wrapper{
+        display: none !important;
+    }
+    .servicios .site-card-wrapper-responsive{
+  
+        display: flex !important;
+         flex-direction: column !important;
+        justify-content: space-between !important;
+        min-height: 7000px !important;
+        align-items: center;
+    }
+    .servicios .ant-card-hoverable{
+        width: 90%;
+        height: 540px;
+        margin: auto;
+    }
+    .servicios .content-button{
+        display: flex !important;
+        align-items: center !important;
+        height: 80px;
+    }
+    .servicios .ant-btn{
+       margin-top: 20px;
+    }
+    .boton-reserve-ya-servicios{
+        bottom: 10px;
+    }
+    .servicios .ant-card-meta-title{
+        font-size: 30px ;
+    }
+    .servicios .ant-card-meta-description{
+        font-size: 20px ;
+    }
+}
+@media (min-width:751px) and (max-width:1150px){
+    .servicios .site-card-wrapper{
+        display: none !important;
+    }
+    .servicios .site-card-wrapper-responsive{
+      display: flex !important;
+       flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        min-height: 3200px !important;
+        align-items: center;
+    }
+    .servicios .ant-card-hoverable{
+         width: 45%;
+        height: 500px;
+        margin: auto;
+    }
+    .servicios .content-button{
+        display: flex !important;
+        align-items: center !important;
+        height: 80px;
+    }
+    .servicios .ant-btn{
+       margin-top: 20px;
+    }
+    .boton-reserve-ya-servicios{
+        bottom: 10px;
+    }
+    .servicios .ant-card-meta-title{
+        font-size:25px ;
+    }
+    .servicios .ant-card-meta-description{
+        font-size: 15px ;
+    }
+
+}

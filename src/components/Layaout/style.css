@@ -1,3 +1,8 @@
+:root{
+  --color-blue: #1890ff;
+}
+
+
 .header {
   
   z-index: 20;
@@ -80,6 +85,9 @@
   text-decoration: none !important;
 
 }
+.iconoNav{
+  font-size: 20px !important;
+}
 
 .lista.open li:hover {
   color: #1890ff !important;
@@ -90,6 +98,7 @@
 .header .ant-space-item:nth-last-child(1) {
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .header .ant-space-item:nth-last-child(2) {

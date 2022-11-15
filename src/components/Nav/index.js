@@ -13,10 +13,10 @@ const Nav = () => {
   
   return (
   <Menu theme='dark' mode="horizontal" defaultSelectedKeys={['mail']} className='Nav'>
-    <Menu.Item onClick={()=> navigate('/')}><HomeOutlined/>  Inicio</Menu.Item>
-    <Menu.Item onClick={()=> navigate('/Servicios')}><RiShip2Line/>  Servicios</Menu.Item>
-    <Menu.Item onClick={()=> navigate('/Playas')}><FaUmbrellaBeach/>  Playas</Menu.Item>
-    <Menu.Item onClick={()=> navigate('/Mas-informacion')}><BsBook/>  Mas Informacion</Menu.Item>
+    <Menu.Item onClick={()=> navigate('/')}><HomeOutlined className='iconoNav'/>  Inicio</Menu.Item>
+    <Menu.Item onClick={()=> navigate('/Servicios')}><RiShip2Line className='iconoNav'/>  Servicios</Menu.Item>
+    <Menu.Item onClick={()=> navigate('/Playas')}><FaUmbrellaBeach className='iconoNav'/>  Playas</Menu.Item>
+    <Menu.Item onClick={()=> navigate('/Mas-informacion')}><BsBook className='iconoNav'/>  Mas Informacion</Menu.Item>
   </Menu>
    
 

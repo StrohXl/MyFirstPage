@@ -5,8 +5,8 @@ import Modal from '../Modal'
 import './responsive.css'
 import './styles.css'
 import { Typography, notification } from 'antd';
-const { Title } = Typography;
-const Header = () => {
+    const { Title } = Typography;
+    const Header = () => {
     const [item, setItem] = useState(null)
     const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {

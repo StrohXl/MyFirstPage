@@ -38,8 +38,6 @@ const Layaout = (props) => {
           <Nav className='Nav' />
         </Space>
       </Header>
-
-
       <Content className="container-content">
         <div className="content">{props.children}</div>
       </Content>

@@ -3,8 +3,13 @@ import { Typography, Image } from 'antd';
 import './styles.css'
 import './responsive.css'
 import mapa from "../../Images/mapa.jpg"
+import { useEffect } from 'react';
 const { Title, Paragraph } = Typography
 const MasInformacion = () => {
+    const LoadData=()=>{
+        window.scroll(0, 0)
+    }
+    useEffect(()=>{LoadData()},[])
     return (
 
         <div className='Informacion'>

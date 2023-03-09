@@ -8,6 +8,7 @@ import Maritas from '../../Images/playalasmaritas_500x540.jpg'
 import Cochaima from '../../Images/playacochaima_500x540.jpg'
 import Colorada from '../../Images/playacolorada_500x540.jpg'
 import Horno from '../../Images/playaelhorno_500x540.jpg'
+import { useEffect } from 'react';
 import Arapito from '../../Images/playaarapito_500x540.jpg'
 import Piscina from '../../Images/playalapiscina_500x540.jpg'
 import Vallecito from '../../Images/playavallecito_500x540.jpg'
@@ -18,15 +19,18 @@ import { Card, Col, Row,} from 'antd';
 import './responsive.css'
 import { useInView } from 'react-intersection-observer';
 const { Meta } = Card;
-
-const contentStyle = {
-    height: '540px',
-    color: '#000',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#fff',
-};
-const Normal = () => {
+const Beach = () => {
+    const LoadData=()=>{
+        window.scroll(0, 0)
+    }
+    useEffect(()=>{LoadData()},[])
+    const contentStyle = {
+        height: '540px',
+        color: '#000',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#fff',
+    };
 
     const { ref:playa1, inView: playa1observer} =useInView({threshold:0.5})
     const { ref:playa2, inView: playa2observer} =useInView({threshold:0.5})
@@ -171,4 +175,4 @@ const Normal = () => {
     );
 };
 
-export default Normal;
+export default Beach;

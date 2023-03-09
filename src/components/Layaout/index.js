@@ -25,7 +25,7 @@ const Layaout = (props) => {
 
       <Header className='header' >
         <Space>
-          <div className='titulo'>Parque nacional <span className='titulo1'>MOCHIMA</span> </div>
+          <div className='titulo1'>PARQUE NACIONAL MOCHIMA</div>
           <div className='nav-responsive'>
             <ul className={`lista${click ? ' open' : ''}`}>
               <li onClick={()=>{navigate('/'); setClick(false)}}><HomeOutlined /> Inicio</li>

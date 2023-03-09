@@ -21,35 +21,40 @@
 }
 .carta1{
     position: relative !important;
-    transition-property: margin;
-    transition-duration: 2s;
-    margin-right: 3000px !important;
+    transition-property: margin opacity;
+    transition-duration: 1s;
+    margin-right: 200px !important;
     z-index: 30 ;
+     opacity: 0;
 }
 .carta1Observada{
     margin-right:0px !important;
+     opacity: 1;
    
 }
 .carta2{
     position: relative !important;
-    transition-property: margin;
-    transition-duration: 2s;
-    margin-right: 3900px !important;
+    transition-property: margin opacity;
+    transition-duration: 1s;
+    margin-right: 200px !important;
     z-index: 20;
+     opacity: 0;
 }
 .carta2Observada{
+     opacity: 1;
     margin-right:0px !important;
 }
 .carta3{
     position: relative !important;
-    transition-property: margin;
-    transition-duration: 2s;
+    transition-property: margin opacity;
+    transition-duration: 1s;
     z-index: 10;
-   
-    margin-right: 5600px !important;
+    opacity: 0;
+    margin-right: 200px !important;
 }
 .carta3Observada{
     margin-right:0px !important;
+     opacity: 1;
 }
 
 .paquetes .ant-row:nth-last-child(1){

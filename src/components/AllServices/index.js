@@ -6,8 +6,13 @@ import Modal from '../Modal'
 import './responsive.css'
 import Responsive from './responsive';
 import Normal from './normal';
+import { useEffect } from 'react';
 const { Title } = Typography;
 const AllServicies = () => {
+        const LoadData=()=>{
+        window.scroll(0, 0)
+    }
+    useEffect(()=>{LoadData()},[])
     const [item, setItem] = useState(null)
     const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {

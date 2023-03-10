@@ -1,49 +1,111 @@
-
-.title{
+.title {
     color: #222 !important;
 }
-.ant-affix{
+
+.ant-affix {
     z-index: 1000 !important;
 }
-.titulo-header{
-    padding-top: 100px;
-    margin-left: 100px;
-    width: 40vw;
+
+.parte1 {
+    background-color: #ffffff3a;
+    padding: 4rem 1rem;
 }
-.boton-reserve-ya{
+
+.boton-reserve-ya {
     margin-top: 20px;
+    font-size: .7rem !important;
 }
-.ant-btn-primary:hover{
-    color: #1890ff !important; 
-    border-color: #1890ff !important;
-    background: #fff !important;;
-}
-.container-footer{
+
+.container-footer {
     bottom: 0 !important;
     z-index: 10;
 }
-.container-content{
+
+.container-content {
     z-index: 10;
 }
-.ant-layout-content{
+
+.ant-layout-content {
     margin-top: 0;
     padding: 0;
 }
-@media (min-width:250px) and (max-width:650px){
-    .parte1{
-        height: 700px !important;
+
+@media (min-width:600px) {
+    .parte1 {
+        padding: 4rem 1rem 8rem;
     }
-    .titulo-header{
-        padding-top:50px;
-      
+
+    .title1 {
+        width: 90%;
+        font-size: 1.9rem;
+    }
+
+    .title4 {
+        width: 90%;
+        font-size: .9rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .title1 {
+        width: 60%;
+        font-size: 2.5rem;
+    }
+
+    .title4 {
+        width: 60%;
+        font-size: 1.1rem;
+    }
+
+    .parte1 {
+        padding: 4rem 1rem 8rem;
+    }
+
+    .boton-reserve-ya {
+        height: 30px !important;
+        font-size: 1rem !important;
     }
 }
-@media (min-width:651px) and (max-width:990px){
-    .parte1{
-        height: 550px !important;
+
+@media (min-width:1600px) {
+    .title1 {
+        width: 60%;
+        font-size: 3rem;
     }
-    .titulo-header{
-        padding-top:50px;
-      
+
+    .title4 {
+        width: 60%;
+        font-size: 1.3rem;
+    }
+
+    .parte1 {
+        padding: 4rem 1rem 8rem;
+    }
+
+    .boton-reserve-ya {
+        height: 35px !important;
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (min-width:1900px) {
+    .title1 {
+        width: 60%;
+        font-size: 3.2rem;
+    }
+
+    .title4 {
+        width: 60%;
+        font-size: 1.5rem;
+    }
+
+    .parte1 {
+        padding: 4rem 1rem 12rem;
+    }
+
+    .boton-reserve-ya {
+        height: 40px !important;
+        font-size: 1.4rem !important;
     }
 }

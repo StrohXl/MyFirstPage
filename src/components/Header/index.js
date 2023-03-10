@@ -36,7 +36,7 @@ import { Typography, notification } from 'antd';
             <h1 className='title1'> Explora Mochima el centro turístico por excelencia</h1>
             <h4 className='title4'>Vive tu mejor experiencia en toda la vida explorando y disfrutando de uno de los mejores parques nacionales de Venezuela</h4>
 
-            <Button size='large' className='boton-reserve-ya' shape="round" type="primary" onClick={() =>showModal()} >RESERVE YA<RightOutlined/></Button>
+            <Button size='small' className='boton-reserve-ya' shape="round" type="primary" onClick={() =>showModal()} >RESERVE YA<RightOutlined/></Button>
             </div>
             <Modal isModalOpen={isModalOpen} handleCancel={handleCancel} handleOk={handleOk} employe={item} />
         </div>

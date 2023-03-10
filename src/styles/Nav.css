@@ -1,0 +1,6 @@
+.NavResponsive .ant-menu-title-content{
+    display: flex !important;
+    gap: 20px !important;
+    align-items: center !important;
+    color: #fff;
+}

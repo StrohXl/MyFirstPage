@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './styles.css'
 import { RightOutlined } from '@ant-design/icons'
 import { Typography, Button, notification } from 'antd';
-import './responsive.css'
 import Modal from '../Modal'
 import Normal from './normal'
 import Responsive from './responsive'

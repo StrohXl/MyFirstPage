@@ -2,13 +2,13 @@
 .title{
     color: #222 !important;
 }
+.ant-affix{
+    z-index: 1000 !important;
+}
 .titulo-header{
     padding-top: 100px;
     margin-left: 100px;
     width: 40vw;
-}
-.parte1{
-    height: 500px;
 }
 .boton-reserve-ya{
     margin-top: 20px;
@@ -28,4 +28,22 @@
 .ant-layout-content{
     margin-top: 0;
     padding: 0;
+}
+@media (min-width:250px) and (max-width:650px){
+    .parte1{
+        height: 700px !important;
+    }
+    .titulo-header{
+        padding-top:50px;
+      
+    }
+}
+@media (min-width:651px) and (max-width:990px){
+    .parte1{
+        height: 550px !important;
+    }
+    .titulo-header{
+        padding-top:50px;
+      
+    }
 }

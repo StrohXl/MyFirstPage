@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css'
 import { Typography} from 'antd';
-import './responsive.css'
 import CarouselResponsive from '../Carousel/CarouselResponsive';
 import Carousel from '../Carousel/Carousel';
 const { Title } = Typography;

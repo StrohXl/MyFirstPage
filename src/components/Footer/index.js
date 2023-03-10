@@ -1,8 +1,7 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Col, Row, Layout } from 'antd';
 import "./styles.css"
 import { Card, } from 'antd';
-import './responsive.css'
 import Logo from '../../Images/logo-footer.jpg'
 import { Typography } from 'antd'
 import { Link } from 'react-router-dom';
@@ -15,35 +14,31 @@ function FooterComponet() {
   return <>
     <Footer className="container-footer">
       <div className="site-card-wrapper">
+      <Row style={{ justifyContent: 'center', gap: '1rem'}}>
+        <Col>
+        <ul>
+            <li><Link to='/MyFirstPage/'> Inicio </Link></li>
 
-        <Card
-          bordered={false}
-        >
+            <li><Link to='/MyFirstPage/Playas'> Playas </Link></li>
 
-          <ul>
-            <li><Link to='/'> Inicio </Link></li>
+            <li><Link to="/MyFirstPage/Mas-informacion">Mas informacion</Link></li>
 
-            <li><Link to='/Playas'> Playas </Link></li>
-
-            <li><Link to="/Mas-informacion">Mas informacion</Link></li>
-
-            <li> <Link to="/Servicios">Servicios</Link></li>
+            <li> <Link to="/MyFirstPage/Servicios">Servicios</Link></li>
           </ul>
-        </Card>
-        <Card bordered={false} >
-          <Title level={3} className='titulo-footer1' >Parque nacional </Title>
-          <div className='titulo-footer2'>MOCHIMA</div>
+        </Col>
+        <Col>
+        <h1 className='titulo-footer2' >PARQUE NACIONAL MOCHIMA</h1>
           <img className='logo-footer' src={Logo} />
-        </Card>
-        <Card bordered={false}>
-          <Title className='titulo-footer' level={2}>Contactos</Title>
+        </Col>
+        <Col>
+        <Title className='titulo-footer' level={4}>Contactos</Title>
           <ul>
             <li> <a href="https://www.facebook.com/page/103336275745126/search/?q=mochima"><FacebookOutlined /> Agencia de viajes Azantravel</a></li>
             <li><WhatsAppOutlined />+58 4129897380</li>
             <li> <a href="https://www.instagram.com/explore/locations/848723171/parque-nacional-mochima-venezuela/"><InstagramOutlined /> Azantravel</a></li>
           </ul>
-        </Card>
-
+        </Col>
+      </Row>
 
       </div>
       <div className="creado">

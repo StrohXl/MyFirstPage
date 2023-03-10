@@ -5,13 +5,14 @@ import { FaUmbrellaBeach } from 'react-icons/fa'
 import { HomeOutlined, } from '@ant-design/icons'
 import { BsBook } from 'react-icons/bs'
 import { RiShip2Line } from 'react-icons/ri'
+import '../../styles/Nav.css'
 
 const Nav = () => {
+  
   let navigate = useNavigate();
-  
-  
+
   return (
-  <Menu theme='dark' mode="horizontal" defaultSelectedKeys={['mail']} className='Nav'>
+  <Menu theme='dark' mode="inline" defaultSelectedKeys={['mail']} className='NavResponsive'>
     <Menu.Item onClick={()=> navigate('/MyFirstPage/')}><HomeOutlined className='iconoNav'/>  Inicio</Menu.Item>
     <Menu.Item onClick={()=> navigate('/MyFirstPage/Servicios')}><RiShip2Line className='iconoNav'/>  Servicios</Menu.Item>
     <Menu.Item onClick={()=> navigate('/MyFirstPage/Playas')}><FaUmbrellaBeach className='iconoNav'/>  Playas</Menu.Item>

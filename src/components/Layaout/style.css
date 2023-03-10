@@ -1,45 +1,13 @@
-:root{
+:root {
   --color-blue: #1890ff;
 }
 
-
-.header {
-  
-  z-index: 20;
-  width: 100%;
-  color: rgb(255, 255, 255) !important;
-  position: fixed;
-
-}
-
-.lista {
-  width: 100%;
-  gap: 0px;
-  position: absolute;
-  top: 63px;
-  bottom: 0;
-  right: -1000px;
-  transition: all .8s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.lista.open {
-  height: 100vh;
-  width: 100vw;
-  top: 63px;
-  right: 25px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-}
-
 .GiHamburgerMenu {
-  top: 0;
+  display: flex;
+  align-items: center;
+  height: 64px;
   cursor: pointer;
   color: #fff;
-  font-size: 35px;
   padding-right: 10px;
 }
 
@@ -51,46 +19,9 @@
   justify-content: center;
   align-items: center;
 }
-.lista li{
-  background-color: #3e5368;
-  cursor: pointer;
-  gap: 4px;
-  color: #fff !important;
-  font-size: 40px;
-  width: 100vw;
-  height: 23.1%;
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
 
-}
-
-.lista.open li {
-  background-color: #3e5368;
-  cursor: pointer;
-  gap: 4px;
-  color: #fff !important;
-  font-size: 40px;
-  width: 100vw;
-  height: 23.1%;
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.lista.open li  {
-  color: #fff !important;
-  text-decoration: none !important;
-
-}
-.iconoNav{
+.iconoNav {
   font-size: 20px !important;
-}
-
-.lista.open li:hover {
-  color: #1890ff !important;
 }
 
 
@@ -101,9 +32,6 @@
   top: 0;
 }
 
-.header .ant-space-item:nth-last-child(2) {
-  display: none;
-}
 
 .nav-responsive {
   top: 0;
@@ -113,20 +41,15 @@
 
 }
 
-.lista li {
-  list-style: none !important;
-  font-size: 40px;
-}
-
 .titulo {
-
   font-weight: 300;
   font-size: 25px;
   padding-left: 13px;
 }
 
 .titulo1 {
-  font-size: 35px;
+  color: #fff;
+  font-size: 0.7rem;
   font-family: auto;
   font-weight: bold;
   font-style: italic;
@@ -149,12 +72,87 @@
 .content {
   background-image: url(../../Images/Playas-1.jpg);
   background-size: 100% 100%;
-  margin-top: 64px;
   z-index: -1;
   background-attachment: fixed;
 }
 
 header li {
   color: #fff !important;
+  font-size: 15px;
+}
+header svg{
   font-size: 20px;
+}
+header .ant-menu-title-content{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header {
+  padding: 0 10px !important;
+}
+
+  .Nav {
+    display: none !important;
+  }
+@media (min-width:400px) {
+  .titulo1{
+    font-size: 1rem;
+  }
+  .GiHamburgerMenu svg{
+    font-size: 1.5rem;
+  }
+
+
+  .ant-space {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width:780px) {
+  .titulo1{
+    font-size: 1rem;
+  }
+  .GiHamburgerMenu{
+    display: none;
+  }
+  .ant-space {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Nav {
+    display: flex !important;
+  }
+
+  .header .anticon {
+    font-size: 50px !important;
+  }
+
+
+}
+
+@media (min-width:951px) {
+  .titulo1{
+    font-size: 1.3rem;
+  }
+
+  .header .ant-space-item:nth-last-child(2) {
+    display: none !important;
+  }
+
+}
+@media (min-width:1600px) {
+  .titulo1{
+    font-size: 1.5rem;
+  }
+
+  header li{
+    font-size: 1.3cqw;
+  }
+
 }

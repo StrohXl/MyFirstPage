@@ -1,8 +1,7 @@
-import React,{useState,useEffect,useRef} from 'react';
+import React from 'react';
 import { Card, Col, Row } from 'antd';
 import './styles.css'
 import { Typography } from 'antd'
-import './responsive.css' 
 import { useInView } from 'react-intersection-observer';
 const { Title, Text } = Typography
 

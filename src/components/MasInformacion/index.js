@@ -1,7 +1,6 @@
 import React from 'react';
 import { Typography, Image } from 'antd';
 import './styles.css'
-import './responsive.css'
 import mapa from "../../Images/mapa.jpg"
 import { useEffect } from 'react';
 const { Title, Paragraph } = Typography

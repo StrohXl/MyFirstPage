@@ -63,9 +63,42 @@
     height: 380px;
 }
 .ant-carousel{
-    padding-top: 20px !important;
+    padding-top
+    : 20px !important;
     border-bottom: 1px solid #ddd;
 }
 .slick-track{
     height: 600px;
 }
+@media (min-width:250px) and (max-width:650px){
+    .servicies .ant-carousel:nth-last-child(2){
+      display: none;
+   }
+   .servicies .ant-carousel:nth-last-child(1){
+     display: block;
+  }
+  .servicies .ant-card-meta{
+   
+      font-size: 20px;
+   }
+   .servicies .ant-card-meta-title{
+  
+      font-size: 25px !important;
+   }
+  }
+  @media (min-width:651px) and (max-width:952px){
+     .servicies .ant-carousel:nth-last-child(2){
+        display: none;
+     }
+     .servicies .ant-carousel:nth-last-child(1){
+       display: block;
+    }
+    .servicies .ant-card-meta{
+     
+        font-size: 20px;
+     }
+     .servicies .ant-card-meta-title{
+    
+        font-size: 25px !important;
+     }
+    }

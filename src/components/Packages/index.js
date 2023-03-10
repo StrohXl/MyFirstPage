@@ -2,10 +2,8 @@ import React from 'react';
 import { Card, Col, Row } from 'antd';
 import './styles.css'
 import { Typography } from 'antd'
-import './responsive.css' 
 import { useInView } from 'react-intersection-observer';
 import Responsive from './responsive'
-import { Link } from 'react-router-dom';
 const { Title, Text } = Typography
 
 const Paquetes = () => {  

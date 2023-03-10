@@ -15,7 +15,6 @@ import Pescador from '../../Images/playapescador_500x540.jpg'
 import Hicacos from '../../Images/playaloshicacos_500x540.jpg'
 import Santa from '../../Images/playasantacruz_500x540.jpg'
 import {  Card,  } from 'antd';
-import './responsive.css'
 import { useInView } from 'react-intersection-observer';
 const { Meta } = Card;
 const contentStyle = {

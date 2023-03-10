@@ -14,7 +14,6 @@ import eventos from '../../Images/evento1.jpg'
 import Bebida from '../../Images/Bebida.jpg'
 import Buceo from '../../Images/actividad6.jpg'
 import { useInView } from 'react-intersection-observer';
-import './responsive.css'
 const { Meta } = Card;
 
 const contentStyle = {

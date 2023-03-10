@@ -12,10 +12,10 @@ function App() {
 	const renderRoutes = () => {
 		return (
 			<Routes>
-				<Route exact path="/" element={<Home />} />
-				<Route path="/Mas-informacion" element={<MasInformacion/>} />
-				<Route path="/Servicios" element={<AllServicios/>} />
-				<Route path="/Playas" element={<Playas/>} />
+				<Route exact path="/MyFirstPage/" element={<Home />} />
+				<Route path="/MyFirstPage/Mas-informacion" element={<MasInformacion/>} />
+				<Route path="/MyFirstPage/Servicios" element={<AllServicios/>} />
+				<Route path="/MyFirstPage/Playas" element={<Playas/>} />
 			</Routes>
 		);
 	};

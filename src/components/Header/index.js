@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import {RightOutlined} from '@ant-design/icons'
 import { Button } from 'antd';
 import Modal from '../Modal'
-import './responsive.css'
 import './styles.css'
 import { Typography, notification } from 'antd';
     const { Title } = Typography;
@@ -34,8 +33,8 @@ import { Typography, notification } from 'antd';
     return (
         <div className='parte1'>
             <div className='titulo-header'>
-            <Title className='title' level={1}> Explora Mochima el centro turístico por excelencia</Title>
-            <Title className='title' level={4}>Vive tu mejor experiencia en toda la vida explorando y disfrutando de uno de los mejores parques nacionales de Venezuela</Title>
+            <h1 className='title1'> Explora Mochima el centro turístico por excelencia</h1>
+            <h4 className='title4'>Vive tu mejor experiencia en toda la vida explorando y disfrutando de uno de los mejores parques nacionales de Venezuela</h4>
 
             <Button size='large' className='boton-reserve-ya' shape="round" type="primary" onClick={() =>showModal()} >RESERVE YA<RightOutlined/></Button>
             </div>

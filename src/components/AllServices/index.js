@@ -3,7 +3,6 @@ import './styles.css'
 import { RightOutlined } from '@ant-design/icons'
 import { Typography, Card, Col, Row, Button, notification } from 'antd';
 import Modal from '../Modal'
-import './responsive.css'
 import Responsive from './responsive';
 import Normal from './normal';
 import { useEffect } from 'react';

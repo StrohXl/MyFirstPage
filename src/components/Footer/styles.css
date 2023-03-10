@@ -1,78 +1,107 @@
 .container-footer {
- border-top: 1px solid #eee;
-  padding: 0px !important;
-  margin: 0 !important;
-  height: 400px;
+  border-top: 1px solid #eee;
   background-color: #fff !important;
   width: 100%;
+  padding: 12px 0 !important;
 }
 
 .site-card-wrapper {
-  width: 100%;
-  height: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 footer ul li {
- 
+  text-align: center !important;
   list-style: none;
-  width: 400px;
-  font-size: 22px;
+  font-size: 12px;
 }
-
-footer ul {
+footer ul  {
   padding: 0;
-  width: 400px;
 }
 
-footer .ant-card {
-  
-  margin-top: 30px;
+footer svg{
+height: 15px;
+}
+footer ul li a {
+  color: #000;
 }
 
-.titulo-footer {
+.titulo-footer2 {
   text-align: center;
-
-}
-.titulo-footer1{
-  text-align: center;
-  font-weight: 300 !important;
-  font-size: 35px !important;
-  padding-left: 13px !important;
-}
-.titulo-footer2{
-  
-  text-align: center;
-  font-size: 35px;
+  font-size: 16px;
   font-family: auto;
   font-weight: bold;
   font-style: italic;
-  width: 100%;
 }
-footer .anticon{
+footer .ant-row{
+  flex-direction: column;
+}
+footer .ant-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .anticon {
   margin-top: 10px;
   margin-right: 10px;
   font-size: 30px;
 }
-.creado{
-  bottom: 0;
-  padding-bottom: 10px;
-  width: 100%;
+
+.creado {
   text-align: center;
+  margin-top: 1.5rem;
   color: #aaa;
-  font-size: 20px;
+  font-size: 10px;
 }
-footer ul li a{
-  color: #000;
-}
-.logo-footer{
-  width: 200px;
-  height: 200px;
+
+.logo-footer {
+  width: 100px;
+  height: 100px;
   border-radius: 15rem;
 }
-footer .ant-card-body{
-  display: flex !important;  
-  flex-direction: column;
-  align-items: center;
+
+
+@media (min-width: 500px) {
+  footer .ant-row{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer ul li{
+    font-size: 14px;
+  }
+  footer .ant-col{
+    width: 30% ;
+  }
+}
+
+@media  (min-width:952px) {
+  .titulo-footer2{
+    font-size: 1.2rem;
+  }
+  footer ul li{
+    font-size: 1rem;
+  }
+  .creado{
+    font-size: .8rem;
+  }
+
+}
+@media (min-width:1600px) {
+  .titulo-footer2{
+    font-size: 1.7rem;
+  }
+  .logo-footer {
+    width: 200px;
+    height: 200px;
+  }
+  footer ul li{
+    font-size: 1.4rem;
+  }
+  .creado{
+    font-size: 1.2rem;
+  }
 }

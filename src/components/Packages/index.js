@@ -13,9 +13,9 @@ const Paquetes = () => {
         <div className='paquetes'>
             <div ref={myRef} className='titulo-paquetes'>
                 <div className='azul'>
-                    <Title className={`titulofalse${tituloObservado ? ' tituloObservado' : ''}`}>
+                    <h1 className={`titulofalse${tituloObservado ? ' tituloObservado' : ''}`}>
                         Paquetes
-                    </Title>
+                    </h1>
                 </div>
             </div>
             <Row ref={Packages} gutter={16}>

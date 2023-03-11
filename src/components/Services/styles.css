@@ -33,7 +33,7 @@
 }
 
 .carousel-card img {
-    height: 120px;
+    height: 150px;
 }
 .carousel-card .ant-card-body{
     height: 119px !important;
@@ -82,9 +82,7 @@
     .content-carousel{
         padding: 0 3rem ;
     }
-.carousel-card img{
-    height: 150px;
-}
+
 }
 
 @media (min-width:600px) {
@@ -94,28 +92,29 @@
     .servicies .ant-carousel:nth-last-child(1) {
         display: none;
     }
+    .ant-carousel .ant-card-meta-title {
+        font-size: .9rem !important;
+    }
+    
+    .ant-carousel .ant-card-meta {
+        font-size: .7rem !important;
+    }
     
     .servicies .ant-carousel:nth-last-child(2) {
         display: block;
     }
     .ant-carousel img{
-        height: 150px;
+        height: 200px;
     }
     .ant-carousel .ant-card-body{
-        height: 150px !important;
+        height: 120px !important;
     }
 }
 @media (min-width:900px) {
-    .ant-carousel .ant-card-body{
-        height: 140px !important;
-    }
     .ant-carousel .ant-card-meta-title {
-        font-size: 1.2rem !important;
+        font-size: 1.1rem !important;
     }
     
-    .ant-carousel .ant-card-meta {
-        font-size: .9rem !important;
-    }
     
 
 }
@@ -125,15 +124,23 @@
         padding-bottom: 1rem;
     }
     .ant-carousel img{
-        height: 200px;
+        height: 250px;
     }
     .link a {
         font-size: 1rem;
     }
+    .ant-carousel .ant-card-meta-title {
+        font-size: 1.3rem !important;
+    }
+    
+    .ant-carousel .ant-card-meta {
+        font-size: .9rem !important;
+    }
+    
 }
 @media (min-width:1600px) {
     .ant-carousel img{
-        height: 250px;
+        height: 300px;
     }
 
     .ant-carousel .ant-card-meta-title {
@@ -153,7 +160,7 @@
 }
 @media (min-width:1900px) {
     .ant-carousel img{
-        height: 280px;
+        height: 350px;
     }
 
     .ant-carousel .ant-card-meta-title {

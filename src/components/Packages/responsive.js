@@ -14,7 +14,7 @@ const Responsive = () => {
     return (
        
              <Row  gutter={64}>
-                <Col  ref={Package1}  span={5} className='content-card1'>
+                <Col  ref={Package1}  className='content-card1'>
                     <Card className={`carta1${ Package1Observado? ' cartaObservada': ''}`}
                     title={'Paquete Estandar: $60'}>
                         <ul>
@@ -25,7 +25,7 @@ const Responsive = () => {
                         </ul>
                     </Card>
                 </Col>
-                <Col ref={Package2}  span={6.5} className=''>
+                <Col ref={Package2}  className=''>
                 <Card className={`carta1${Package2Observado? ' cartaObservada': ''}`} 
                 title={' Paquete Especial: $80'}>
                         <ul>
@@ -38,7 +38,7 @@ const Responsive = () => {
                         </ul>
                     </Card>
                 </Col>
-                <Col ref={Package3}  span={10}>
+                <Col ref={Package3}  >
                 <Card  className={`carta1${Package3Observado? ' cartaObservada': ''}`} 
                 title={'Paquete Completo: $120'}>
                         <ul>

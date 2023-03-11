@@ -15,13 +15,23 @@
 .servicios-row .ant-col {
     width: 100% !important;
 }
+
 .servicios-row{
     gap: 2rem 0.5rem;
+    justify-content: center;
 }
 
 .servicios-row img {
+    transform: scale(.9);
+    opacity: 0;
     height: 150px;
     width: 100%;
+    transition-property: opacity transform;
+    transition-duration: 1s;
+}
+.aumentar{
+    transform: scale(1) !important;
+    opacity: 1 !important;
 }
 
 .servicios-row .ant-card-body {
@@ -44,5 +54,74 @@
     }
     .servicios-row .ant-card-body {
         height: 120px !important;
+    }
+}
+@media(min-width: 650px){
+    .servicios-row .ant-col {
+        width: 49% !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: .8rem !important;
+    }
+}
+@media(min-width: 950px){
+    .servicios-row .ant-col {
+        width: 32% !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: .8rem !important;
+    }
+}
+@media(min-width: 1250px){
+    .titulo-servicios .ant-typography {
+        font-size: 2rem !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.2rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: .9rem !important;
+    }
+    .servicios-row img {
+        height: 200px;
+    }
+}
+@media(min-width: 1650px){
+    .titulo-servicios .ant-typography {
+        font-size: 2.5rem !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.4rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: 1rem !important;
+    }
+    .servicios-row img {
+        height: 250px;
+    }
+}
+@media(min-width: 1900px){
+    .titulo-servicios .ant-typography {
+        font-size: 3rem !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.5rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: 1.2rem !important;
+    }
+    .servicios-row img {
+        height: 250px;
     }
 }

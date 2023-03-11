@@ -1,134 +1,129 @@
-.Playas{
-    margin: auto;
-    margin-top: 64px;
-    width: 90%;
-    z-index: 10;
-    background-color: #fff;
-    min-height: 2800px;
+.servicios {
+    background: #fff;
+    padding: 1rem 1rem;
 }
-.titulo-Playas{
-    display: flex;
+
+.titulo-servicios {
     text-align: center;
-    justify-content: center;
-    background-color: #fff ;
-    height: 100px;
+    padding-bottom: 1rem;
+}
+
+.titulo-servicios .ant-typography {
+    font-size: 1.6rem !important;
+}
+
+.servicios-row .ant-col {
     width: 100% !important;
 }
-.Playas .site-card-wrapper-responsive{
-    display: none !important;
-}
-.Playas .site-card-wrapper{
-    min-height: 2800px;
-}
-.Playas .ant-card-body{
-    height: 120px;
-}
-.Playas .site-card-wrapper .imagen-Playas{
-    height: 380px;
-    transform: scale(0.8);
-    opacity: 0;
-    transition-property: transform opacity;
-    transition-duration: 2s;
 
+.servicios-row{
+    gap: 2rem 0.5rem;
+    justify-content: center;
 }
-.imagen-Playas{
-    height: 380px !important;
-    transform: scale(0.8);
-    opacity: 0;
-    transition-property: transform opacity;
-    transition-duration: 2s;
 
+.servicios-row img {
+    transform: scale(.9);
+    opacity: 0;
+    height: 150px;
+    width: 100%;
+    transition-property: opacity transform;
+    transition-duration: 1s;
 }
- .activo{
+.aumentar{
     transform: scale(1) !important;
     opacity: 1 !important;
-
 }
 
-
-.Playas .ant-typography{
-    display: flex;
-    align-items: center;
-    height: 100px;
+.servicios-row .ant-card-body {
+    height: 100px !important;
 }
-.content-button{
-    align-items: center;
-    width: 100%;
+
+.servicios-row .ant-card-meta-title {
+    font-size: .9rem !important;
+}
+
+.servicios-row .ant-card-meta-description {
+    font-size: .7rem !important;
+}
+.servicios .content-button{
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
-.boton-reserve-ya-Playas{
-    bottom: 20px;
-}
-@media (min-width:250px) and (max-width:750px){
-    .Playas .site-card-wrapper{
-        display: none !important;
+@media(min-width: 450px){
+    .servicios-row .ant-col {
+        width: 49% !important;
     }
-    .Playas .site-card-wrapper-responsive{
+    .servicios-row .ant-card-body {
+        height: 120px !important;
+    }
+}
+@media(min-width: 650px){
+    .servicios-row .ant-col {
+        width: 49% !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1rem !important;
+    }
     
-        display: flex !important;
-         flex-direction: column !important;
-        justify-content: space-between !important;
-        min-height: 8000px !important;
-        align-items: center 
-        ;
-    }
-     .Playas .ant-card-hoverable{
-        width: 90%;
-        height: 540px;
-        margin: auto;
-    }
-    .Playas .content-button{
-        display: flex !important;
-        align-items: center !important;
-        height: 80px;
-    }
-    .Playas .ant-btn{
-       margin-top: 20px;
-    }
-    .boton-reserve-ya-Playas{
-        bottom: 10px;
-    }
-    .Playas .ant-card-meta-title{
-        font-size:25px ;
-    }
-    .Playas .ant-card-meta-description{
-        font-size: 20px ;
+    .servicios-row .ant-card-meta-description {
+        font-size: .8rem !important;
     }
 }
-@media (min-width:751px) and (max-width:1150px){
-    .Playas .site-card-wrapper{
-        display: none !important;
+@media(min-width: 950px){
+    .servicios-row .ant-col {
+        width: 32% !important;
     }
-    .Playas .site-card-wrapper-responsive{
-      
-        display: flex !important;
-       flex-wrap: wrap !important;
-        justify-content: space-between !important;
-        min-height: 4000px !important;
-        align-items: center 
-        ;
+    .servicios-row .ant-card-meta-title {
+        font-size: 1rem !important;
     }
-     .Playas .ant-card-hoverable{
-        width: 45%;
-        min-height: 530px;
-        margin: auto;
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: .8rem !important;
     }
-    .Playas .content-button{
-        display: flex !important;
-        align-items: center !important;
-        height: 80px;
+}
+@media(min-width: 1250px){
+    .titulo-servicios .ant-typography {
+        font-size: 2rem !important;
     }
-    .Playas .ant-btn{
-       margin-top: 20px;
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.2rem !important;
     }
-    .boton-reserve-ya-Playas{
-        bottom: 10px;
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: .9rem !important;
     }
-    .Playas .ant-card-meta-title{
-        font-size:20px ;
+    .servicios-row img {
+        height: 200px;
     }
-    .Playas .ant-card-meta-description{
-        font-size: 15px ;
+}
+@media(min-width: 1650px){
+    .titulo-servicios .ant-typography {
+        font-size: 2.5rem !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.4rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: 1rem !important;
+    }
+    .servicios-row img {
+        height: 250px;
+    }
+}
+@media(min-width: 1900px){
+    .titulo-servicios .ant-typography {
+        font-size: 3rem !important;
+    }
+    .servicios-row .ant-card-meta-title {
+        font-size: 1.5rem !important;
+    }
+    
+    .servicios-row .ant-card-meta-description {
+        font-size: 1.2rem !important;
+    }
+    .servicios-row img {
+        height: 250px;
     }
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './styles.css'
-import { RightOutlined } from '@ant-design/icons'
 import { Typography, Card, Col, Row, Button, notification } from 'antd';
 import Modal from '../Modal'
 import Normal from './normal';
@@ -41,7 +40,7 @@ const AllServicies = () => {
             <div className='titulo-servicios'><Title>Servicios</Title></div>
             <Normal/>
             <div className='content-button'>
-                <Button size='large' className='boton-reserve-ya-servicios' shape="round" type="primary" onClick={() => showModal()} >RESERVE YA<RightOutlined /></Button>
+                <Button size='small' className='boton-reserve-ya' shape="round" type="primary" onClick={() => showModal()} >RESERVE YA</Button>
                 <Modal isModalOpen={isModalOpen} handleCancel={handleCancel} handleOk={handleOk} employe={item} />
             </div>
 

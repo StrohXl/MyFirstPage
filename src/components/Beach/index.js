@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import './styles.css'
-import { RightOutlined } from '@ant-design/icons'
 import { Typography, Button, notification } from 'antd';
 import Modal from '../Modal'
 import Normal from './normal'
-import Responsive from './responsive'
 const { Title } = Typography;
 const Playas = () => {
     const [item, setItem] = useState(null)
@@ -35,14 +33,12 @@ const Playas = () => {
     }
 
     return (
-        <div className='Playas'>
-            <div className='titulo-Playas'><Title>Playas</Title></div>
-            <div className='playasContent'>
+        <div className='servicios'>
+            <div className='titulo-servicios'><Title>Playas</Title></div>
                 <Normal />
-                <Responsive />
-            </div>
+
             <div className='content-button'>
-                <Button size='large' className='boton-reserve-ya-Playas' shape="round" type="primary" onClick={() => showModal()} >RESERVE YA<RightOutlined /></Button>
+                <Button size='small' className='boton-reserve-ya' shape="round" type="primary" onClick={() => showModal()} >RESERVE YA</Button>
                 <Modal isModalOpen={isModalOpen} handleCancel={handleCancel} handleOk={handleOk} employe={item} />
             </div>
         </div>

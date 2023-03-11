@@ -1,25 +1,19 @@
 .Informacion{
-    margin: auto;
-    margin-top: 64px;
-    width: 90%;
-    z-index: 10;
-    background-color: #fff;
-    min-height: 2250px; 
- 
+    background-color: #fff; 
+    padding: 1rem 1rem;
 }
 .titulo-Informacion{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: #fff ;
     width: 100% !important;
     padding-top: 20px;
-    border-bottom: 1px solid #ddd;
 }
-.parrafo .titulo-Informacion{
-    display: flex;
-   justify-content: start;
-
+.titulo-Informacion .ant-typography{
+    font-size: 1.6rem !important;
+}
+.parrafo h2{
+    font-size: 1.2rem !important;
 }
 .ant-image{
     margin: auto !important;
@@ -28,13 +22,71 @@
 
 .parrafo{
     margin: auto;
-    width: 90%;
-    font-size: 22px;
+    font-size: .8rem;
     text-align: justify;
    
 }
+.Informacion-content-img h2{
+    font-size: 1.2rem !important;
+}s
 .content-parrafo{
     margin-top: 20px;
-    
-    border-right: 1px solid #ddd;
+}
+@media(min-width: 600px){
+    .titulo-Informacion .ant-typography{
+        font-size: 1.8rem !important;
+    }
+    .parrafo h2{
+        font-size: 1.4rem !important;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+    .Informacion-content-img h2{
+        font-size: 1.4rem !important;
+    }
+    .Informacion{
+
+        padding: 2rem 2rem;
+    }
+}
+@media(min-width: 1200px){
+    .titulo-Informacion .ant-typography{
+        font-size: 2rem !important;
+    }
+
+    .Informacion-content-img {
+        width: 50%;
+    }
+    .Informacion-content-img h2{
+        font-size: 1.6rem !important;
+    }
+}
+@media(min-width: 1600px){
+    .titulo-Informacion .ant-typography{
+        font-size: 2.5rem !important;
+    }
+    .parrafo h2{
+        font-size: 1.6rem !important;
+    }
+    .parrafo{
+        font-size: 1.2rem;
+    }
+    .Informacion-content-img h2{
+        font-size: 1.6rem !important;
+    }
+}
+@media(min-width: 1900px){
+    .titulo-Informacion .ant-typography{
+        font-size: 3rem !important;
+    }
+    .parrafo h2{
+        font-size: 1.8rem !important;
+    }
+    .parrafo{
+        font-size: 1.4rem;
+    }
+    .Informacion-content-img h2{
+        font-size: 1.8rem !important;
+    }
 }

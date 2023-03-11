@@ -20,7 +20,7 @@ const Paquetes = () => {
             </div>
             <Row ref={Packages} gutter={16}>
                 <Col span={7} className='content-card1'>
-                    <Card className={`carta1${PackagesObservado ? ' carta1Observada' : ''}`}
+                    <Card className={`carta1${PackagesObservado ? ' cartaObservada' : ''}`}
                         title={'Paquete Estandar: $60'}>
                         <ul>
                             <li>Traslado</li>
@@ -31,7 +31,7 @@ const Paquetes = () => {
                     </Card>
                 </Col>
                 <Col span={7}>
-                    <Card className={`carta2${PackagesObservado ? ' carta2Observada' : ''}`}
+                    <Card className={`carta1${PackagesObservado ? ' cartaObservada' : ''}`}
                         title={'Paquete Especial: $80 '}>
                         <ul>
                             <li>Traslado</li>
@@ -45,7 +45,7 @@ const Paquetes = () => {
                 </Col>
                 <Col span={7}>
                     <Card
-                        className={`carta3${PackagesObservado ? ' carta3Observada' : ''}`}
+                        className={`carta1${PackagesObservado ? ' cartaObservada' : ''}`}
                         title={'Paquete Completo:  $120'}>
                         <ul>
                             <li>Traslado</li>

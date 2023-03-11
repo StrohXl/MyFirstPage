@@ -39,7 +39,7 @@ const Responsive = () => {
                     </Card>
                 </Col>
                 <Col ref={Package3}  span={10}>
-                <Card  className={`carta${Package3Observado? ' cartaObservada': ''}`} 
+                <Card  className={`carta1${Package3Observado? ' cartaObservada': ''}`} 
                 title={'Paquete Completo: $120'}>
                         <ul>
                             <li>Traslado</li>

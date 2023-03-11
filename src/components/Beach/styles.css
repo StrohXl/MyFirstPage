@@ -22,16 +22,9 @@
 }
 
 .servicios-row img {
-    transform: scale(.9);
-    opacity: 0;
     height: 150px;
     width: 100%;
-    transition-property: opacity transform;
-    transition-duration: 1s;
-}
-.aumentar{
-    transform: scale(1) !important;
-    opacity: 1 !important;
+
 }
 
 .servicios-row .ant-card-body {

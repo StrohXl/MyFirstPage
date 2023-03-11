@@ -9,8 +9,8 @@ const Servicies = () => {
     return (
 
         <div className='servicies'>
-            <div className='titulo-servicies'><Title>Servicios</Title></div>
-            <div>
+            <div className='titulo-servicies'><Title className='titulo-services'>Servicios</Title></div>
+            <div className='content-carousel'>
             <Carousel/>
             <CarouselResponsive/>
             </div>

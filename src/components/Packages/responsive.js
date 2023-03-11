@@ -13,13 +13,10 @@ const Responsive = () => {
  
     return (
        
- 
              <Row  gutter={64}>
                 <Col  ref={Package1}  span={5} className='content-card1'>
-                    <Card className={`carta1${ Package1Observado? ' carta1Observada': ''}`}
-                    title={<Title level={2}>Paquete Estandar: 
-                    <Text className='precio'>$60</Text>
-                    </Title>}>
+                    <Card className={`carta1${ Package1Observado? ' cartaObservada': ''}`}
+                    title={'Paquete Estandar: $60'}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>
@@ -29,8 +26,8 @@ const Responsive = () => {
                     </Card>
                 </Col>
                 <Col ref={Package2}  span={6.5} className=''>
-                <Card className={`carta2${Package2Observado? ' carta2Observada': ''}`} 
-                title={<Title level={2}>Paquete Especial: <Text className='precio'>$80</Text></Title>}>
+                <Card className={`carta1${Package2Observado? ' cartaObservada': ''}`} 
+                title={' Paquete Especial: $80'}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>
@@ -42,7 +39,8 @@ const Responsive = () => {
                     </Card>
                 </Col>
                 <Col ref={Package3}  span={10}>
-                <Card  className={`carta3${Package3Observado? ' carta3Observada': ''}`} title={<Title level={2}>Paquete Completo: <Text className='precio'>$120</Text></Title>}>
+                <Card  className={`carta${Package3Observado? ' cartaObservada': ''}`} 
+                title={'Paquete Completo: $120'}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>

@@ -6,18 +6,22 @@ import { useInView } from 'react-intersection-observer';
 import Responsive from './responsive'
 const { Title, Text } = Typography
 
-const Paquetes = () => {  
-    const { ref: myRef , inView:tituloObservado} = useInView({threshold:1})
-    const { ref: Packages , inView:PackagesObservado} = useInView({threshold:0.5})
-    return (  
+const Paquetes = () => {
+    const { ref: myRef, inView: tituloObservado } = useInView({ threshold: 1 })
+    const { ref: Packages, inView: PackagesObservado } = useInView({ threshold: 0.5 })
+    return (
         <div className='paquetes'>
-            <div ref={myRef} className='titulo-paquetes'><div className='azul'><Title className={`titulofalse${ tituloObservado?' tituloObservado':''}`}>Paquetes</Title> </div></div>
+            <div ref={myRef} className='titulo-paquetes'>
+                <div className='azul'>
+                    <Title className={`titulofalse${tituloObservado ? ' tituloObservado' : ''}`}>
+                        Paquetes
+                    </Title>
+                </div>
+            </div>
             <Row ref={Packages} gutter={16}>
                 <Col span={7} className='content-card1'>
-                    <Card className={`carta1${ PackagesObservado? ' carta1Observada': ''}`}
-                    title={<Title level={2}>Paquete Estandar: 
-                    <Text className='precio'>$60</Text>
-                    </Title>}>
+                    <Card className={`carta1${PackagesObservado ? ' carta1Observada' : ''}`}
+                        title={'Paquete Estandar: $60'}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>
@@ -27,11 +31,8 @@ const Paquetes = () => {
                     </Card>
                 </Col>
                 <Col span={7}>
-                <Card className={`carta2${PackagesObservado? ' carta2Observada': ''}`} 
-                 title={<Title level={2}>
-                    Paquete Especial: 
-                    <Text className='precio'>$80</Text>
-                    </Title>}>
+                    <Card className={`carta2${PackagesObservado ? ' carta2Observada' : ''}`}
+                        title={'Paquete Especial: $80 '}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>
@@ -43,7 +44,9 @@ const Paquetes = () => {
                     </Card>
                 </Col>
                 <Col span={7}>
-                <Card className={`carta3${PackagesObservado? ' carta3Observada': ''}`} title={<Title level={2}>Paquete Completo: <Text className='precio'>$120</Text></Title>}>
+                    <Card
+                        className={`carta3${PackagesObservado ? ' carta3Observada' : ''}`}
+                        title={'Paquete Completo:  $120'}>
                         <ul>
                             <li>Traslado</li>
                             <li>Comida</li>
@@ -59,7 +62,7 @@ const Paquetes = () => {
                     </Card>
                 </Col>
             </Row>
-            <div><Responsive/></div>
+            <div><Responsive /></div>
         </div>
     );
 };

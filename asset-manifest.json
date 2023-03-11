@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/MyFirstPage/static/css/main.f14d27ed.css",
-    "main.js": "/MyFirstPage/static/js/main.32818433.js",
+    "main.css": "/MyFirstPage/static/css/main.bcc3c437.css",
+    "main.js": "/MyFirstPage/static/js/main.11a35828.js",
     "static/js/787.7d3d693b.chunk.js": "/MyFirstPage/static/js/787.7d3d693b.chunk.js",
     "static/media/Playas-1.jpg": "/MyFirstPage/static/media/Playas-1.14aa16cc0bed5ce16350.jpg",
     "static/media/GetImage.jpeg": "/MyFirstPage/static/media/GetImage.1b90078bb6ff7c47133c.jpeg",
+    "static/media/actividad 5.jpg": "/MyFirstPage/static/media/actividad 5.ecb7e0e4a338d4eff111.jpg",
     "static/media/evento1.jpg": "/MyFirstPage/static/media/evento1.86ef6b4c4f2b3cd37671.jpg",
     "static/media/comida4.jpg": "/MyFirstPage/static/media/comida4.e45e580c72a9fa0c89c0.jpg",
     "static/media/actividad4.jpg": "/MyFirstPage/static/media/actividad4.dde97ddc783443425251.jpg",
@@ -24,7 +25,6 @@
     "static/media/playaarapito_500x540.jpg": "/MyFirstPage/static/media/playaarapito_500x540.7c5f488a5ef3b530683d.jpg",
     "static/media/Bebida.jpg": "/MyFirstPage/static/media/Bebida.ec86d7510c4cb37ac621.jpg",
     "static/media/playalacanoa_500x540.jpg": "/MyFirstPage/static/media/playalacanoa_500x540.492528f59ece6e60e305.jpg",
-    "static/media/Vista1.jpg": "/MyFirstPage/static/media/Vista1.22dc218ae2882fab6929.jpg",
     "static/media/ensenadaeltigrillo_500x540.jpg": "/MyFirstPage/static/media/ensenadaeltigrillo_500x540.b96d8bbc18e75d19c99c.jpg",
     "static/media/boda1.jpg": "/MyFirstPage/static/media/boda1.197cc489075e4619622f.jpg",
     "static/media/actividad6.jpg": "/MyFirstPage/static/media/actividad6.76eba4234227d09d9d54.jpg",
@@ -33,12 +33,12 @@
     "static/media/playalapiscina_500x540.jpg": "/MyFirstPage/static/media/playalapiscina_500x540.86ad912926234b6fd477.jpg",
     "static/media/playacochaima_500x540.jpg": "/MyFirstPage/static/media/playacochaima_500x540.a26c5fff83c8680a1c75.jpg",
     "index.html": "/MyFirstPage/index.html",
-    "main.f14d27ed.css.map": "/MyFirstPage/static/css/main.f14d27ed.css.map",
-    "main.32818433.js.map": "/MyFirstPage/static/js/main.32818433.js.map",
+    "main.bcc3c437.css.map": "/MyFirstPage/static/css/main.bcc3c437.css.map",
+    "main.11a35828.js.map": "/MyFirstPage/static/js/main.11a35828.js.map",
     "787.7d3d693b.chunk.js.map": "/MyFirstPage/static/js/787.7d3d693b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f14d27ed.css",
-    "static/js/main.32818433.js"
+    "static/css/main.bcc3c437.css",
+    "static/js/main.11a35828.js"
   ]
 }

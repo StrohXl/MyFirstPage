@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyFirstPage/static/css/main.1d1270df.css",
+    "main.css": "/MyFirstPage/static/css/main.af7d9940.css",
     "main.js": "/MyFirstPage/static/js/main.a34fe93b.js",
     "static/js/787.7d3d693b.chunk.js": "/MyFirstPage/static/js/787.7d3d693b.chunk.js",
     "static/media/Playas-1.jpg": "/MyFirstPage/static/media/Playas-1.14aa16cc0bed5ce16350.jpg",
@@ -34,12 +34,12 @@
     "static/media/playalapiscina_500x540.jpg": "/MyFirstPage/static/media/playalapiscina_500x540.86ad912926234b6fd477.jpg",
     "static/media/playacochaima_500x540.jpg": "/MyFirstPage/static/media/playacochaima_500x540.a26c5fff83c8680a1c75.jpg",
     "index.html": "/MyFirstPage/index.html",
-    "main.1d1270df.css.map": "/MyFirstPage/static/css/main.1d1270df.css.map",
+    "main.af7d9940.css.map": "/MyFirstPage/static/css/main.af7d9940.css.map",
     "main.a34fe93b.js.map": "/MyFirstPage/static/js/main.a34fe93b.js.map",
     "787.7d3d693b.chunk.js.map": "/MyFirstPage/static/js/787.7d3d693b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d1270df.css",
+    "static/css/main.af7d9940.css",
     "static/js/main.a34fe93b.js"
   ]
 }

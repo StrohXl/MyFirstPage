@@ -7,14 +7,14 @@ const Home = () => {
     const LoadData=()=>{
         window.scroll(0, 0)
         //holas 
-     //   <Servicies/>
+     //   
        // <Paquetes/> //
     }
     useEffect(()=>{LoadData()},[])
     return (
         <div>
             <Header/>
-      
+            <Servicies/>
             
         </div>
     );

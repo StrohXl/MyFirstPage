@@ -1,104 +1,173 @@
-.servicies{
+.servicies {
     width: 100%;
-    
     z-index: 10;
     background-color: #fff;
 }
 
-
-.link{
+.link {
+    padding-top: .5rem;
     display: flex;
     justify-content: end;
     width: 100%;
 }
-.link a{
-    font-size: 20px;
-}
-.titulo-servicies-transition{
-    
-    top: -1000px;
+
+.link a {
+    font-size: .8rem;
 }
 
-.titulo-servicies{
-    
-    top: 0px;
-    background-color: #fff ;
+.titulo-servicies {
+    padding-top: 1rem;
     display: flex;
-    height: 100px;
-    width: 100% !important;
-    border-bottom: 1px solid #ddd;
-    transition: top  1.0 ease;
-  
+    justify-content: center;
+    align-items: center;
 }
-.servicies .ant-card-meta{
- 
-    font-size: 18px;
- }
- .servicies .ant-card-body{
-    height: 160px;
- }
- .servicies .ant-card-meta-title{
 
-    font-size: 22px !important;
- }
-.ant-carousel:nth-last-child(1){
-    display: none;
- }
-.titulo-servicies .ant-typography{
+.titulo-services {
     margin: auto !important;
     color: #1890ff !important;
+    font-size: 1.6rem !important;
 }
-.ant-carousel .slick-dots li{
-    
-    height: 10px !important;
-    width: 32px !important;
-    
+
+.content-carousel {
+    padding: 0 1rem;
 }
-.ant-carousel .slick-dots li button{
-    height: 10px !important;
-    width: 32px !important;
+
+.carousel-card img {
+    height: 120px;
+}
+.carousel-card .ant-card-body{
+    height: 119px !important;
+}
+
+.carousel-card .ant-card-meta-title {
+    font-size: 1rem !important;
+}
+
+.carousel-card .ant-card-meta {
+    font-size: .7rem !important;
+}
+
+
+.ant-carousel .slick-dots li button {
     background-color: #1890ff !important;
 }
-.ant-carousel .slick-slide img{
-    height: 380px;
+
+.ant-carousel:nth-last-child(1) {
+    display: none;
 }
-.ant-carousel{
-    padding-top
-    : 20px !important;
-    border-bottom: 1px solid #ddd;
+
+.ant-carousel .slick-dots li {
+
+    height: 10px !important;
+    width: 32px !important;
+
 }
-.slick-track{
-    height: 600px;
+.ant-carousel {
+    padding-top: 20px !important;
 }
-@media (min-width:250px) and (max-width:650px){
-    .servicies .ant-carousel:nth-last-child(2){
-      display: none;
-   }
-   .servicies .ant-carousel:nth-last-child(1){
-     display: block;
-  }
-  .servicies .ant-card-meta{
-   
-      font-size: 20px;
-   }
-   .servicies .ant-card-meta-title{
-  
-      font-size: 25px !important;
-   }
-  }
-  @media (min-width:651px) and (max-width:952px){
-     .servicies .ant-carousel:nth-last-child(2){
+
+.slick-track {
+    padding-bottom: 3rem;
+}
+
+.servicies .ant-carousel:nth-last-child(2) {
+    display: none;
+}
+
+.servicies .ant-carousel:nth-last-child(1) {
+    display: block;
+}
+
+@media (min-width:400px) {
+    .content-carousel{
+        padding: 0 3rem ;
+    }
+.carousel-card img{
+    height: 150px;
+}
+}
+
+@media (min-width:600px) {
+    .content-carousel{
+        padding: 0 1rem ;
+    }
+    .servicies .ant-carousel:nth-last-child(1) {
         display: none;
-     }
-     .servicies .ant-carousel:nth-last-child(1){
-       display: block;
     }
-    .servicies .ant-card-meta{
-     
-        font-size: 20px;
-     }
-     .servicies .ant-card-meta-title{
     
-        font-size: 25px !important;
-     }
+    .servicies .ant-carousel:nth-last-child(2) {
+        display: block;
     }
+    .ant-carousel img{
+        height: 150px;
+    }
+    .ant-carousel .ant-card-body{
+        height: 150px !important;
+    }
+}
+@media (min-width:900px) {
+    .ant-carousel .ant-card-body{
+        height: 140px !important;
+    }
+    .ant-carousel .ant-card-meta-title {
+        font-size: 1.2rem !important;
+    }
+    
+    .ant-carousel .ant-card-meta {
+        font-size: .9rem !important;
+    }
+    
+
+}
+@media (min-width:1200px) {
+    .titulo-services {
+        font-size: 2rem !important;
+        padding-bottom: 1rem;
+    }
+    .ant-carousel img{
+        height: 200px;
+    }
+    .link a {
+        font-size: 1rem;
+    }
+}
+@media (min-width:1600px) {
+    .ant-carousel img{
+        height: 250px;
+    }
+
+    .ant-carousel .ant-card-meta-title {
+        font-size: 1.4rem !important;
+    }
+    
+    .ant-carousel .ant-card-meta {
+        font-size: 1rem !important;
+    }
+    .link a {
+        font-size: 1rem;
+    }
+    .titulo-services {
+        font-size: 2.5rem !important;
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width:1900px) {
+    .ant-carousel img{
+        height: 280px;
+    }
+
+    .ant-carousel .ant-card-meta-title {
+        font-size: 1.6rem !important;
+    }
+    
+    .ant-carousel .ant-card-meta {
+        font-size: 1.1rem !important;
+    }
+    .link a {
+        font-size: 1.2rem;
+    }
+    .titulo-services {
+        font-size: 3rem !important;
+        padding-bottom: 1rem;
+    }
+}

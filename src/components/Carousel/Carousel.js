@@ -12,21 +12,12 @@ import traslado from '../../Images/guia1.jpg'
 import guia from '../../Images/amavcapacitara.jpg'
 import eventos from '../../Images/evento1.jpg'
 const { Meta } = Card;
-
-const contentStyle = {
-    height: '540px',
-    color: '#000',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#fff',
-};
-
 const CarouselNormal = () => {
     
     return (
             <Carousel autoplay >
                 <div >
-                    <div style={contentStyle} className="site-card-wrapper">
+                    <div className="site-card-wrapper">
                         <Row gutter={16}>
                             <Col span={8}>
                                 <Card
@@ -61,7 +52,7 @@ const CarouselNormal = () => {
                     </div>
                 </div>
                 <div>
-                    <div style={contentStyle} className="site-card-wrapper">
+                    <div className="site-card-wrapper">
                         <Row gutter={16}>
                             <Col span={8}>
                                 <Card
@@ -95,7 +86,7 @@ const CarouselNormal = () => {
                     </div>
                 </div>
                 <div>
-                    <div style={contentStyle} className="site-card-wrapper">
+                    <div className="site-card-wrapper">
                         <Row gutter={16}>
                             <Col span={8}>
                                 <Card

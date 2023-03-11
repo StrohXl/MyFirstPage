@@ -15,14 +15,6 @@ import Bebida from '../../Images/Bebida.jpg'
 import Buceo from '../../Images/actividad6.jpg'
 import { useInView } from 'react-intersection-observer';
 const { Meta } = Card;
-
-const contentStyle = {
-    height: '540px',
-    color: '#000',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#fff',
-};
 const Normal = () => {
     const { ref: imageNormal1, inView: imagenormalObserver1 } = useInView({ threshold: 0.5 })
     const { ref: imageNormal2, inView: imagenormalObserver2 } = useInView({ threshold: 0.5 })
@@ -30,12 +22,11 @@ const Normal = () => {
     const { ref: imageNormal4, inView: imagenormalObserver4 } = useInView({ threshold: 0.5 })
     
     return ( 
-            <div style={contentStyle} className="site-card-wrapper">
-                <Row gutter={16} className='servisios-row'>
-                    <Col ref={imageNormal1} span={7}>
+            <div className="site-card-wrapper">
+                <Row gutter={16} className='servicios-row'>
+                    <Col ref={imageNormal1}>
                         <Card
-
-
+ 
                             hoverable
                             cover={<img className={`imagen-servicios${imagenormalObserver1 ? ' aumentar' : ''}`} alt="example" src={alojamiento} />}
                         >
@@ -44,7 +35,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col >
                         <Card
 
                             hoverable
@@ -54,7 +45,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
 
                             hoverable
@@ -64,7 +55,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col ref={imageNormal2} span={7}>
+                    <Col ref={imageNormal2}>
                         <Card
 
                             hoverable
@@ -74,7 +65,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
                             hoverable
                             cover={<img className={`imagen-servicios${imagenormalObserver2 ? ' aumentar' : ''}`} alt="example" src={Seguro} />}
@@ -83,7 +74,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
                             hoverable
                             cover={<img className={`imagen-servicios${imagenormalObserver2 ? ' aumentar' : ''}`} alt="example" src={campamento} />}
@@ -92,7 +83,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col ref={imageNormal3} span={7}>
+                    <Col ref={imageNormal3}>
                         <Card
 
                             hoverable
@@ -102,7 +93,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
 
                             hoverable
@@ -112,7 +103,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
                             hoverable
                             cover={<img className={`imagen-servicios${imagenormalObserver3 ? ' aumentar' : ''}`} alt="example" src={eventos} />}
@@ -121,7 +112,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col ref={imageNormal4} span={7}>
+                    <Col ref={imageNormal4}>
                         <Card
 
                             hoverable
@@ -131,7 +122,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
 
                             hoverable
@@ -141,7 +132,7 @@ const Normal = () => {
 
                         </Card>
                     </Col>
-                    <Col span={7}>
+                    <Col>
                         <Card
                             hoverable
                             cover={<img className={`imagen-servicios${imagenormalObserver4 ? ' aumentar' : ''}`} alt="example" src={Buceo} />}

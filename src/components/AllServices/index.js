@@ -3,7 +3,6 @@ import './styles.css'
 import { RightOutlined } from '@ant-design/icons'
 import { Typography, Card, Col, Row, Button, notification } from 'antd';
 import Modal from '../Modal'
-import Responsive from './responsive';
 import Normal from './normal';
 import { useEffect } from 'react';
 const { Title } = Typography;
@@ -40,10 +39,7 @@ const AllServicies = () => {
     return (
         <div className='servicios'>
             <div className='titulo-servicios'><Title>Servicios</Title></div>
-            <div>
-            <Responsive/>
             <Normal/>
-            </div>
             <div className='content-button'>
                 <Button size='large' className='boton-reserve-ya-servicios' shape="round" type="primary" onClick={() => showModal()} >RESERVE YA<RightOutlined /></Button>
                 <Modal isModalOpen={isModalOpen} handleCancel={handleCancel} handleOk={handleOk} employe={item} />

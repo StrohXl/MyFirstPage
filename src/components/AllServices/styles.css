@@ -1,159 +1,48 @@
 .servicios {
-    margin: auto;
-    margin-top: 64px;
-    width: 90%;
-    z-index: 10;
-    background-color: #fff;
-    min-height: 2400px;
-}
-
-.imageFalse {
-    opacity: 0 !important;
-    transition: all 2s ease;
-    transform: scale(0.1) !important;
-}
-
-.imagesObserver {
-    opacity: 1 !important;
-    transform: scale(1) !important;
-
-}
-
-.servicios .site-card-wrapper {
-    min-height: 2400px;
-}
-
-.servicios .ant-typography {
-    display: flex;
-    align-items: center;
-    height: 100px;
-}
-
-.servicios .ant-card-body {
-    height: 110px;
-}
-
-.servicios .site-card-wrapper-responsive {
-    display: none !important;
+    background: #fff;
+    padding: 1rem 1rem;
 }
 
 .titulo-servicios {
-    display: flex;
     text-align: center;
-    justify-content: center;
-    background-color: #fff;
-    height: 100px;
+    padding-bottom: 1rem;
+}
+
+.titulo-servicios .ant-typography {
+    font-size: 1.6rem !important;
+}
+
+.servicios-row .ant-col {
     width: 100% !important;
-
+}
+.servicios-row{
+    gap: 2rem 0.5rem;
 }
 
-.servicios .ant-card-meta-title {
-    font-size: 20px;
-}
-
-.servicios .ant-card-meta-description {
-    font-size: 15px;
-}
-
-.imagen-serv {
-
-    height: 380px;
-
-
-}
-
-.imagen-servicios {
-    opacity: 0 !important;
-    height: 380px;
-    transform: scale(0.8) !important;
-    transition-property: opacity transform;
-    transition-duration: 2s;
-}
-
-.aumentar {
-    transform: scale(1) !important;
-    opacity: 1 !important;
-
-}
-
-.content-button {
-    align-items: center;
+.servicios-row img {
+    height: 150px;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
-.boton-reserve-ya-servicios {
-
-    bottom: 20px;
+.servicios-row .ant-card-body {
+    height: 100px !important;
 }
-@media (min-width:250px) {
-    .servicios .site-card-wrapper{
-        display: none !important;
-    }
-    .servicios .site-card-wrapper-responsive{
-  
-        display: flex !important;
-         flex-direction: column !important;
-        justify-content: space-between !important;
-        min-height: 7000px !important;
-        align-items: center;
-    }
-    .servicios .ant-card-hoverable{
-        width: 90%;
-        height: 540px;
-        margin: auto;
-    }
-    .servicios .content-button{
-        display: flex !important;
-        align-items: center !important;
-        height: 80px;
-    }
-    .servicios .ant-btn{
-       margin-top: 20px;
-    }
-    .boton-reserve-ya-servicios{
-        bottom: 10px;
-    }
-    .servicios .ant-card-meta-title{
-        font-size: 30px ;
-    }
-    .servicios .ant-card-meta-description{
-        font-size: 20px ;
-    }
-}
-@media (min-width:751px) and (max-width:1150px){
-    .servicios .site-card-wrapper{
-        display: none !important;
-    }
-    .servicios .site-card-wrapper-responsive{
-      display: flex !important;
-       flex-wrap: wrap !important;
-        justify-content: space-between !important;
-        min-height: 3200px !important;
-        align-items: center;
-    }
-    .servicios .ant-card-hoverable{
-         width: 45%;
-        height: 500px;
-        margin: auto;
-    }
-    .servicios .content-button{
-        display: flex !important;
-        align-items: center !important;
-        height: 80px;
-    }
-    .servicios .ant-btn{
-       margin-top: 20px;
-    }
-    .boton-reserve-ya-servicios{
-        bottom: 10px;
-    }
-    .servicios .ant-card-meta-title{
-        font-size:25px ;
-    }
-    .servicios .ant-card-meta-description{
-        font-size: 15px ;
-    }
 
+.servicios-row .ant-card-meta-title {
+    font-size: .9rem !important;
+}
+
+.servicios-row .ant-card-meta-description {
+    font-size: .7rem !important;
+}
+.servicios .content-button{
+    margin-top: 1rem;
+}
+@media(min-width: 450px){
+    .servicios-row .ant-col {
+        width: 49% !important;
+    }
+    .servicios-row .ant-card-body {
+        height: 120px !important;
+    }
 }
